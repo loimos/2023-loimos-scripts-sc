@@ -1,0 +1,14 @@
+# Output files
+charmrun.*
+core.*
+*.out*
+*.csv
+*.dat
+*.pdf
+*.txt
+
+# Generated files
+batch/*.sh
+
+# Data files
+experiments/
