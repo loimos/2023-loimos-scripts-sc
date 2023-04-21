@@ -1,6 +1,6 @@
 # Loimos SC23 Run Scripts
 
-Loimos is a codebase for modeling the spread of infectious diseases. The sourcecode for the simulator itself may be found in the main [Loimos project repository](https://github.com/loimos/loimos). This repository contains supplementary scripts used to:
+Loimos is a codebase for modeling the spread of infectious diseases. The source code for the simulator itself may be found in the main [Loimos project repository](https://github.com/loimos/loimos). This repository contains supplementary scripts used to:
 1. Run Loimos in larger many-run experiments.
 2. Parse and summarize the resulting output.
 3. Generate plots similar to those presented in the paper from those results.
@@ -46,7 +46,7 @@ Note that the Loimos executable you intent to run should be found in the directo
 
     a. Running the command
 
-        ```ARGS="-r" make rivanna-weak-scaling```
+    ```ARGS="-r" make rivanna-weak-scaling```
 
     b. Copying and pasting the `sbatch` lines printed when running `make rivanna-weak-scaling` into your terminal.
 
@@ -57,3 +57,13 @@ Note that the Loimos executable you intent to run should be found in the directo
     ```make plots```
 
     The generated plot will be saved as `figs/weak-rivanna.pdf`.
+
+## License
+
+Loimos is distributed under the terms of the MIT license.
+
+All contributions must be made under the MIT license. Copyrights in the Loimos project are retained by contributors. No copyright assignment is required to contribute to Loimos.
+
+See [LICENSE](https://github.com/loimos/2023-loimos-scripts-sc/blob/develop/LICENSE) for details.
+
+SPDX-License-Identifier: MIT
